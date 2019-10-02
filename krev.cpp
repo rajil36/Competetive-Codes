@@ -11,6 +11,7 @@ Node* createNode(int value){
     Node* tmp = new(Node);
     tmp->value = value;
     tmp->next = NULL;
+    return tmp;
 }
 
 Node* addNode(int value, Node* head){
